@@ -1,7 +1,7 @@
 import {IFillable} from "../interfaces/IFillable";
 
-class Cup implements IFillable {
-    
+export class Cup implements IFillable {
+
     getMaterial<Type>(material: Type): Type {
         throw new Error("Method not implemented.");
     }
