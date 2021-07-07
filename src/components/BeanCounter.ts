@@ -8,10 +8,14 @@ class BeanCounter {
     
     _iterateBeans(numBeans: Number) {
         for (let i = 0; i <= numBeans; i++) {
-            console.log(`...filling bean`);            
+            this._fillBean(i);
         }
 
         return true;
+    }
+
+    _fillBean(beanId: Number) {
+        console.log(`Bean ${beanId} has been filled`);
     }
 
 
