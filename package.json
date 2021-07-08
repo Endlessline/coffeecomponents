@@ -17,7 +17,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "publish": "rm -rf ./dist && tsc && webpack"
+    "publish": "rm -rf ./dist && rm -rf ./_bundles && tsc && webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
