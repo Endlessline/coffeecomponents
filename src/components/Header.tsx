@@ -6,7 +6,7 @@ interface HeaderProps {
 }
 
 
-const Header: FC<HeaderProps> = ( { title, subtitle } ) => {
+export const Header: FC<HeaderProps> = ( { title, subtitle } ) => {
   return (
     <>
       <h1>{ title }</h1>
@@ -14,5 +14,3 @@ const Header: FC<HeaderProps> = ( { title, subtitle } ) => {
     </>
   )
 }
-
-export default Header
